@@ -1,14 +1,1 @@
-Test Cases
 
-| ID | Area | Scenario | Steps | Expected Result | Priority |
-|---|---|---|---|---|---|
-| TC01 | Authentication | Sign up with valid details | Enter valid email/password and submit | Account is created | P2 |
-| TC02 | Authentication | Sign up with invalid email | Enter invalid email and submit | Error message is shown | P2 |
-| TC03 | Space Management | Create a valid space | Enter name, description, price, dates | Space is created and visible | P1 |
-| TC04 | Space Management | Missing space name | Leave name blank and submit | Validation error is shown | P1 |
-| TC05 | Booking | Request available date | Select available date and request | Booking request is created as pending | P0 |
-| TC06 | Booking | Prevent double booking | Confirm booking, then try same date with another user | Second booking is blocked | P0 |
-| TC07 | Requests | Owner approves request | Owner clicks approve | Booking status becomes confirmed | P0 |
-| TC08 | Requests | Owner denies request | Owner clicks deny | Booking status becomes denied | P0 |
-| TC09 | Security | Non-owner approves request | User tries to approve another owner’s request | Action is blocked | P0 |
-| TC10 | Availability | Book past date | Select date in past | Request is blocked | P1 |
