@@ -1,0 +1,58 @@
+Test Plan
+
+Objective
+The objective is to test the functionality of the MakersBnB. Looking at what is in the scope and prioritizing them in line with the how much it would affect the user. 
+
+Scope
+Sign up
+Log in / log out
+Create spaces
+Edit spaces
+Set availability
+Request bookings
+Approve / deny requests
+
+Lower Priority
+Payments
+Chat
+Email/SMS notifications
+
+Priority Areas
+P0: Booking flow, double booking prevention, request approval
+P1: Space creation, editing, availability
+P2: Authentication
+P3: Notifications, chat, payments
+
+
+Exploratory Testing Session Plan (90 minutes)
+
+0–15 mins: Authentication
+Sign up with valid and invalid data
+Test password validation
+Log in and log out
+Attempt access without authentication
+
+
+15–35 mins: Space Management
+Create a space with valid data
+Try missing required fields
+Enter long or unusual inputs
+Create multiple spaces
+
+35–60 mins: Booking Flow
+Browse spaces
+Request a booking e.g past dates, overlapping dates, unavailable dates
+Observe booking status changes
+
+60–75 mins: Request Handling
+Approve a request
+Deny a request
+Verify status updates
+Check availability updates after approval
+
+75–90 mins: Edge Cases & Multi-user
+
+Attempt double booking with 2 users
+Submit simultaneous requests
+Refresh during booking flow
+Use browser navigation (back/forward)
