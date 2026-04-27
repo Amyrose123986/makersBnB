@@ -1,1 +1,12 @@
+Risks
+A space could be double booked.
+A booking request may not update correctly after approval or cancelation
+Users may be able to approve or edit bookings they do not own.
+Unavailable dates may still appear selectable.
+Invalid dates or prices may be accepted.
 
+Assumptions
+A booking is for one night only unless dates say otherwise
+Only signed-in users can create spaces or request bookings.
+Only the space owner can approve or deny requests.
+Once a booking is confirmed, that night should no longer be available.
