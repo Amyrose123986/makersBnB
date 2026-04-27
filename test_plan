@@ -3,28 +3,38 @@ Test Plan
 Objective
 The objective is to test the functionality of the MakersBnB. Looking at what is in the scope and prioritizing them in line with the how much it would affect the user. 
 
-Scope
+
+**SCOPE OF PROJECT**
+User can perform following actions on the app;
+
 Sign up
 Log in / log out
-Create spaces
-Edit spaces
-Set availability
+Create/Edit spaces
+Set availability and pricing
 Request bookings
 Approve / deny requests
 
-Lower Priority
-Payments
-Chat
-Email/SMS notifications
-
-Priority Areas
-P0: Booking flow, double booking prevention, request approval
-P1: Space creation, editing, availability
-P2: Authentication
-P3: Notifications, chat, payments
+**FEATURES**
+-New user trust system to create a new space listing.
+-User trust system to give permission to create multiple spaces.
+-End point user feedback space.
+-Recommendations to advertise high ranking users and their properties.
+-VIP program to have priority booking opportunities.
 
 
 Exploratory Testing Session Plan (90 minutes)
+
+--Priority Areas--
+P0: Booking flow, double booking prevention, request approval
+P1:Handling sensitive information and security.
+P2: Space creation, editing, availability
+P3: Authentication
+P4: Notifications, chat, payments
+
+--Lower Priority--
+Payments
+Chat
+Email/SMS notifications
 
 0–15 mins: Authentication
 Sign up with valid and invalid data
