@@ -1,12 +1,19 @@
-Risks
-A space could be double booked.
-A booking request may not update correctly after approval or cancelation
-Users may be able to approve or edit bookings they do not own.
-Unavailable dates may still appear selectable.
-Invalid dates or prices may be accepted.
+**Risks**
+1- A space could be double booked.
+2- A booking request may not update correctly after approval or cancelation
+3- Users may be able to approve or edit bookings they do not own.
+4- Unavailable dates may still appear selectable.
+5- Invalid dates or prices may be accepted.
+6- Session timeouts can cause issues if not adjusted correctly, resulting preferred rooms to be no longer available if it is booked by someone else.
+7- If SSL is not used, banking transactions may not be secure.
+8- Client personal information (ID, passport) can be subject to data breaches if not handled correctly and deleted.
 
-Assumptions
-A booking is for one night only unless dates say otherwise
-Only signed-in users can create spaces or request bookings.
-Only the space owner can approve or deny requests.
-Once a booking is confirmed, that night should no longer be available.
+**Assumptions**
+1- A booking is for one night only unless dates say otherwise
+2- Only signed-in users can create spaces or request bookings.
+3- Only the space owner can approve or deny requests.
+4- Once a booking is confirmed, that night should no longer be available.
+5- If the user is trying to log in with an email that is not on database, user can be redirected to sign up page to make an account.
+6- Location estimations can be implemented to show distance to attractions or centres.
+7- If Terms & Conditions not met, space owner can deduct damages from the deposit or request additional payments to cover damage.
+8- Feedback Channel for Clients can give feedback space owner's property to build up reputation system and/or recommendation boost.
