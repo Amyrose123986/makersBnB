@@ -1,1 +1,25 @@
-
+Initial State	Action	Expected Result
+Non Existent	Sign Up	Unverified
+Unverified	Verify Email	Active (Logged Out)
+Active (Logged Out)	Login	Active (Logged In)
+Create Listing	Validation of Listed Item	Listing Created
+End User Request	Fetch Availability and properties	Properties listed as user request
+Admin Approval State	Approve/Reject	Transaction screen / Reject screen
+Approval/Rejection Notification	Issue SMS/Email	User to receive approval/rejection information
+Active (Logged In)	Logout	Active (Logged Out)
+Active (Logged In)	Delete Account	Non Existent
+		
+Flow of Test Case		
+Start:	Non-Existent	
+Step 1:	Sign Up	
+Step 2:	Verify Email	
+Step 3:	Log in (Active Logged In)	
+Step 4:	Fetch booking schedules	
+Step 5:	Booking Request Test	
+Step 6:	Transaction Test	
+Step 7:	Booking Confirmation Test	
+Step 8:	Booking Cancellation Test	
+Step 9:	Booking Notification Test	
+Step 10: Logout (Active Logged Out)	
+Step 11: Login (Active Logged In)	
+Step 12: Delete Account (Non-Existent)	
